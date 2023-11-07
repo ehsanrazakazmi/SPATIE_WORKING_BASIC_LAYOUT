@@ -1,10 +1,11 @@
 <?php
 
-use App\Http\Controllers\Admin\IndexController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use Spatie\Permission\Contracts\Permission;
 use App\Http\Controllers\Admin\RoleController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\IndexController;
 use App\Http\Controllers\Admin\PermissionController;
 
 /*
